@@ -1,0 +1,24 @@
+# Pytest cache
+.pytest_cache/
+.pytest_cache
+
+# Coverage reports
+.coverage
+htmlcov/
+*.xml
+
+# Python bytecode
+# Bỏ qua mọi thư mục .pytest_cache ở bất kỳ đâu
+.__pycache__/
+*.py[cod]
+.pytest_cache/
+.htmlcov/
+*.xml
+vscode
+.vscode/
+
+# Bỏ qua mọi file hoặc thư mục có chứa chữ pytest trong tên ở bất kỳ đâu
+*pytest*
+*coverage*
+*.egg-info/
+
